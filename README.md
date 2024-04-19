@@ -1,4 +1,4 @@
-# Trip-Planner Bot: A Streamlit-Powered Geographical Exploration Tool
+# Trip-Planner Bot: A Streamlit-Powered trip planning bot
 
 ## Project Introduction
 
