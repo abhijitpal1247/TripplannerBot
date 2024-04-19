@@ -11,29 +11,7 @@ from langchain_core.prompts import PromptTemplate
 from langchain_core.tools import BaseTool
 
 
-class Singleton(type):
-    _instances = {}
-
-    def __call__(cls, *args, **kwargs):
-        """
-        Controls the instantiation of the Singleton class.
-        Ensures that only one instance of the Singleton is created.
-        If the instance exists, it returns the existing instance, otherwise,
-        it creates a new instance.
-        Args:
-            *args (list): Variable length argument list.
-            **kwargs (dict): Arbitrary keyword arguments.
-
-        Returns:
-            None
-        """
-        if cls not in cls._instances:
-            cls._instances[cls] = super(Singleton, cls).__call__(*args, **kwargs)
-        return cls._instances[cls]
-
-
 class TravelAgent(ABC):
-    __metaclass__ = Singleton
 
     # components of chatbot - llm, memory, template, tools, prompt, response
 
