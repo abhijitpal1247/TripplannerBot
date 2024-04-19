@@ -1,4 +1,4 @@
-# Trip-Planner Bot: A Streamlit-Powered trip planning bot
+# Trip-Planner Bot: A Langchain-Powered trip planning bot
 
 ## Project Introduction
 
