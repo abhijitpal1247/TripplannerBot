@@ -48,7 +48,7 @@ To run the Trip-Planner Bot locally, you need to:
 
 ### Note:
 
-Ensure you have valid API keys for OpenStreetMap, Bing Maps, and FourSquare configured in your environment.
+Ensure you have valid API keys for Bing Maps, and FourSquare configured in your environment.
 
 ## Contributions
 
