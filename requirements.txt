@@ -1,0 +1,5 @@
+streamlit~=1.32.0
+langchain~=0.1.16
+folium~=0.16.0
+geopy~=2.4.1
+requests~=2.31.0
