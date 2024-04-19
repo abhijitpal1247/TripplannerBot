@@ -162,7 +162,7 @@ class RouteRetriever(BaseTool):
         "and value of 'transportation_mode' is a string that indicates the mode of transport "
         "(can be cycle, walking, transit or car). "
         "Example: {'locations': ['Mumbai', 'Pune', 'Nagpur'], 'transportation_mode': 'cycle'}"
-        "The response is  instructions through different waypoints."
+        "The response is instructions through different waypoints, do not change the response."
     )
 
     def _run(self, input_data: Dict[str, Any]) -> Dict[str, Any]:
