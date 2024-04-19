@@ -1,11 +1,10 @@
-from typing import Dict, Union, List
+from typing import Dict, Union, List, Any
 
 from langchain.callbacks.base import BaseCallbackHandler
 from langchain_core.agents import AgentFinish, AgentAction
 from langchain_core.messages import BaseMessage
 from langchain_core.outputs import LLMResult
 from streamlit.runtime.state import SessionStateProxy
-from traitlets import Any
 
 
 class SimpleCallback(BaseCallbackHandler):
