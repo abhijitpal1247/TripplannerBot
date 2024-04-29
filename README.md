@@ -36,19 +36,15 @@ To run the Trip-Planner Bot locally, you need to:
     ```bash
     pip install -r requirements.txt
     ```
-
-
-
-
 3. Start the Streamlit application:
     ```bash
     streamlit run main.py
     ```
-4. Navigate to the displayed URL in your web browser.
+4. Navigate to the displayed URL.
 
 ### Note:
 
-Ensure you have valid API keys for Bing Maps, and FourSquare configured in your environment.
+Ensure you have valid API keys for OpenAI, Bing Maps, and FourSquare configured in your environment.
 
 ## Contributions
 
